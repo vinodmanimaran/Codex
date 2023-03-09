@@ -43,7 +43,12 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node server.js",
+    "client": "cd client && vite",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && vite build"
+
   },
   "repository": {
     "type": "git",
