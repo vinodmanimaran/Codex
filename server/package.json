@@ -3,9 +3,9 @@
   "private":true,
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "server": "nodemon server"
+    "start": "npm start"
   },
   "keywords": [],
   "author": "",
