@@ -16,15 +16,7 @@ const app = express ();
 app.use (cors ());
 app.use (express.static (path.join (__dirname, '../client/dist')));
 
-app.get ('*', function (_, res) {
-  res.sendFile (path.join (__dirname, '../client/dist/index.html'), function (
-    err
-  ) {
-    if (err) {
-      res.status (500).send (err);
-    }
-  });
-});
+
 
 app.use (express.json ());
 
