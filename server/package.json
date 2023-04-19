@@ -5,7 +5,7 @@
   "description": "",
   "type": "commonjs",
   "scripts": {
-    "server": "node server.cjs"
+    "start": "node server.cjs"
   },
   "keywords": [],
   "author": "",
