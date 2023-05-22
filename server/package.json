@@ -5,7 +5,8 @@
   "description": "",
   "type": "commonjs",
   "scripts": {
-    "start": "npm run server.cjs"
+    "start": "node server.cjs",
+    "dev":"nodemon server.cjs"
   },
   "keywords": [],
   "author": "",
